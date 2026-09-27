@@ -22,6 +22,7 @@ proxies:
   port: '443'
   server: 24864168545164.oylfmxz.cn
   servername: 24864168545164.oylfmxz.cn
+  skip-cert-verify: false
   tls: true
   type: vmess
   uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6
@@ -29,6 +30,26 @@ proxies:
     headers:
       Host: 24864168545164.oylfmxz.cn
     path: /
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国2-IEPL-GPT
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd2.bjnet2.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 🇺🇸 美国|@ripaojiedian
+  password: 17b70f72-fc4f-41a7-a32f-e0bbad7d1400
+  plugin: obfs
+  plugin-opts:
+    host: 3c183f1f4eae079d708e817ae656417a.baidu.com
+    mode: http
+  port: 36608
+  server: gd.bjnet2.com
+  type: ss
 - client-fingerprint: chrome
   flow: xtls-rprx-vision
   name: US_speednode_0130

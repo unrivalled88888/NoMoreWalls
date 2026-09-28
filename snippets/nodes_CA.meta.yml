@@ -2,7 +2,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇦CA_1|1.1MB/s
+  name: 🇨🇦CA_1|1.3MB/s
   network: tcp
   port: '50181'
   reality-opts:
@@ -18,7 +18,7 @@ proxies:
 - client-fingerprint: chrome
   encryption: none
   flow: xtls-rprx-vision
-  name: 🇨🇦CA_2|3.0MB/s
+  name: 🇨🇦CA_2|1.5MB/s
   network: tcp
   port: '27204'
   reality-opts:

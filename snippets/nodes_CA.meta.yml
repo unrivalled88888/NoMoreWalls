@@ -1,7 +1,15 @@
 proxies:
-- name: 🇨🇦CA_1|1.9MB/s
+- name: 🇨🇦CA_1|1.2MB/s
   port: 9443
-  server: 23.169.224.34
+  server: 198.44.157.27
   skip-cert-verify: true
   tls: true
   type: http
+- client-fingerprint: chrome
+  name: 🇨🇦CA_2|2.7MB/s
+  password: a7c5d30b-ce9b-4e34-b5cb-66f8308790ef
+  port: 1009
+  server: ybdkz3y4.zf-mix.9999231.xyz
+  sni: co-8ce91c.9999231.xyz
+  type: anytls
+  udp: true

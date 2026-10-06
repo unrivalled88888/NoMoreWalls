@@ -1,27 +1,21 @@
 proxies:
-- name: 🇫🇷187923 | ⚡️Telegram = t.me/S...
-  obfs: salamander
-  obfs-password: ChY5QQQT3ZtUdNT8
-  password: capadmbd5f18bd
-  port: 443
-  server: 51.77.217.70
-  skip-cert-verify: true
-  sni: vpn.local
-  tls: false
-  type: hysteria2
-- cipher: aes-256-cfb
-  name: 🇫🇷FR_2|4.3MB/s
-  password: amazonskr05
-  port: 443
-  server: 35.180.75.226
-  type: ss
-- name: 🇫🇷FR_3|1.3MB/s
-  port: 443
-  server: 51.210.167.149
-  skip-cert-verify: true
+- client-fingerprint: ios
+  encryption: none
+  flow: xtls-rprx-vision
+  name: 🇫🇷FR_7|2.8MB/s
+  network: raw
+  port: '443'
+  reality-opts:
+    public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+    short-id: '!!str '
+  server: 45.9.118.101
+  servername: sellflow.org
   tls: true
-  type: http
-- name: 🇫🇷FR_4|2.9MB/s
+  type: vless
+  udp: true
+  uuid: 44730b65-24d5-45f2-8b45-8be24015d1b9
+  xudp: true
+- name: 🇫🇷FR_2|1.0MB/s
   password: github.com/Alvin9999-newpac/fanqiang
   port: 30099
   server: ip5.934618.xyz
@@ -29,3 +23,28 @@ proxies:
   sni: ip5.934618.xyz
   type: anytls
   udp: true
+- cipher: aes-256-cfb
+  name: 🇫🇷FR_3|2.1MB/s
+  password: amazonskr05
+  port: 443
+  server: 13.36.178.160
+  type: ss
+  udp: true
+- name: 🇫🇷FR_4|1.6MB/s
+  port: 443
+  server: 13.37.226.59
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_5|1.1MB/s
+  port: 9443
+  server: 213.139.9.142
+  skip-cert-verify: true
+  tls: true
+  type: http
+- name: 🇫🇷FR_6|1.9MB/s
+  port: 443
+  server: 13.37.228.51
+  skip-cert-verify: true
+  tls: true
+  type: http

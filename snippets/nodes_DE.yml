@@ -3,7 +3,7 @@ proxies:
   - h2
   grpc-opts:
     grpc-service-name: grpcbeast
-  name: 🇩🇪DE_8|3.5MB/s
+  name: 🇩🇪DE_7|2.3MB/s
   network: grpc
   password: f8b-U5TxjNRYKLvU0Js_6YeMCdj_82km
   port: 443
